@@ -1,0 +1,14 @@
+.DailyForecast {
+  text-align: center;
+  color: #f1f1f2;
+}
+.DailyForecast-day {
+  color: aquamarine;
+}
+.DailyForecast-temp-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
+.DailyForecast canvas {
+  margin: 7px 0;
+}

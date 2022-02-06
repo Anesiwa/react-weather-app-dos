@@ -1,0 +1,89 @@
+.weatherDetail {
+  border-bottom: 1px solid #408ec6;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+h1 {
+  margin: 10px 0 5px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #40c6a4;
+}
+.dateDetails {
+  padding: 0;
+}
+ul {
+  margin: 5px 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 600;
+  color: #408ec6;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+#weatherDescription,
+#humidity,
+#wind,
+#precipitation,
+#day {
+  color: #f1f1f1;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col-3 {
+  display: block;
+  margin: auto;
+}
+.WeatherTemperature {
+  margin-top: 10px;
+}
+.temperature {
+  font-size: 80px;
+  color: #40c6a4;
+  margin-top: 5px;
+}
+.units {
+  position: relative;
+  top: -44px;
+  font-size: 14px;
+  color: #f1f1f2;
+  margin-left: 0px;
+}
+
+canvas {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.weatherParameters {
+  margin-top: 20px;
+}
+.search-form {
+  margin: 10px 0;
+}
+#location-input,
+#searchButton,
+#currentLocation {
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 14px;
+  height: 30px;
+  line-height: 2px;
+  border-color: #408ec6;
+  padding: 15px 20px;
+}
+.allDescriptions {
+  line-height: 1.25;
+}
+.clearfix {
+  display: flex;
+  justify-content: space-between;
+}
