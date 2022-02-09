@@ -43,10 +43,10 @@ li:first-letter {
   margin: auto;
 }
 .WeatherTemperature {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .temperature {
-  font-size: 80px;
+  font-size: 75px;
   color: #40c6a4;
   margin-top: 5px;
 }
@@ -55,7 +55,7 @@ li:first-letter {
   top: -44px;
   font-size: 14px;
   color: #f1f1f2;
-  margin-left: 0px;
+  margin-left: 8px;
 }
 
 canvas {
@@ -86,4 +86,7 @@ canvas {
 .clearfix {
   display: flex;
   justify-content: space-between;
+}
+.disabledLink {
+  cursor: none;
 }
