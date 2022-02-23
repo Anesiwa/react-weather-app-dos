@@ -57,11 +57,14 @@ li:first-letter {
   color: #f1f1f2;
   margin-left: 8px;
 }
-
-canvas {
+.PrimaryIcon {
   display: inline-block;
   margin-right: 10px;
   margin-top: 20px;
+}
+canvas {
+  display: inline-block;
+  margin: 15px 0px;
 }
 .weatherParameters {
   margin-top: 20px;
