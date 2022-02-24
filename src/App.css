@@ -19,12 +19,48 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 576px) {
+  container {
+    max-width: 60%;
+  }
+  body {
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+  .WeatherInfo h1 {
+    margin: 10px 0 5px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #40c6a4;
+  }
+  .temperature {
+    font-size: 30px;
+    color: #40c6a4;
+    margin-top: 5px;
+  }
+  .units {
+    position: relative;
+    top: -44px;
+    font-size: 9px;
+    color: #f1f1f2;
+    margin-left: 8px;
+  }
+  .DailyForecastRow {
+    display: flex-root;
+  }
+  .primaryIcon {
+    size: 20px;
+  }
+  .weatherParameters {
+    display: none;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

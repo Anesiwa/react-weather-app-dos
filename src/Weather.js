@@ -60,11 +60,6 @@ export default function Weather(props) {
                 value="Search"
               />
             </div>
-            <div className="col-3">
-              <button id="currentLocation" className="btn btn-primary">
-                Current
-              </button>
-            </div>
           </div>
         </form>
         <div className="weatherDetail">

@@ -3,7 +3,7 @@
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
-h1 {
+.WeatherInfo h1 {
   margin: 10px 0 5px;
   font-size: 50px;
   font-weight: 700;
@@ -93,4 +93,7 @@ canvas {
 }
 .disabledLink {
   cursor: none;
+}
+.DailyForecastRow {
+  display: flex-root;
 }
