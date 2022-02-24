@@ -14,7 +14,7 @@ export default function WeatherInfo(props) {
         <li id="weatherDescription">{props.data.description}</li>
       </ul>
 
-      <div className="row allDescriptions mt-3 mb-3">
+      <div className="row allDescriptions mt-1 mb-2">
         <div className="col-6">
           <div className="clearfix">
             <div className="float-left">
